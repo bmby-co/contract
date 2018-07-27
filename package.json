@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bmby-dapp/contract.git"
+    "url": "git+https://github.com/bmby-co/contract.git"
   },
   "author": "BMBY",
   "license": "APACHE2",
   "bugs": {
-    "url": "https://github.com/bmby-dapp/contract/issues"
+    "url": "https://github.com/bmby-co/contract/issues"
   },
-  "homepage": "https://github.com/bmby-dapp/contract#readme",
+  "homepage": "https://github.com/bmby-co/contract#readme",
   "dependencies": {
     "openzeppelin-solidity": "^1.11.0",
     "truffle": "^4.1.13",
