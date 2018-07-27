@@ -1,0 +1,24 @@
+{
+  "name": "bmby-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "truffle compile && truffle-flattener contracts/BMBYToken.sol > dist/BMBYToken.sol"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmby-dapp/contract.git"
+  },
+  "author": "BMBY",
+  "license": "APACHE2",
+  "bugs": {
+    "url": "https://github.com/bmby-dapp/contract/issues"
+  },
+  "homepage": "https://github.com/bmby-dapp/contract#readme",
+  "dependencies": {
+    "openzeppelin-solidity": "^1.11.0",
+    "truffle": "^4.1.13",
+    "truffle-flattener": "^1.2.5"
+  }
+}
